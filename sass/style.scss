@@ -10,6 +10,7 @@ body {
     margin: 0;
     font-size: 16px;
     line-height: 1.7;
+    text-align: center;
     font-family: 'Abril Fatface', cursive;
     color: #2c2c54; 
 }
@@ -23,6 +24,7 @@ body {
 /* navigation */
 .navigation {
     padding: 12px 0;
+    overflow: hidden;
 }
 
 .navigation ul {
@@ -39,7 +41,7 @@ body {
 
 .navigation a {
     text-decoration: none;
-    color: $color-two;
+    color: $color-four;
     font-family: $font-family;
 }
 
@@ -49,7 +51,6 @@ body {
     display: inline-block;
     min-width: 160px;
     margin: 24px auto 0 auto;
-    padding: 16px;
     border-radius: 5px;
     font-family: $font-family;
     font-size: 16px;
@@ -57,37 +58,42 @@ body {
     text-decoration: none;
     cursor: pointer;
     border-width: 5px;
-    background-color: $color-two;
+    background-color: $color-four;
     background-position: 100% 0;
     background-size: 300%;
 }
 
-.splash {
-    color: $color-two;
-    background-image: url(images/budynek.jpg);
-    min-height: 500px;
-    display: flex;
+.main-page {
+    height: 50vh;
+    position: relative;
+    background-image: url(https://i.postimg.cc/TYgf8S26/budynek.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: inherit;
 }
 
+.splash {
+    padding: 7%;
+}
 .splash-inner {
     margin: 0;
-    max-width: 70%;
 }
 
 .page-title {
-    margin: 0;
-    font-size: 42px;
+    font-size: 40px;
     word-spacing: 4px;
     font-weight: normal;
     line-height: 1.2;
     font-family: $font-family;
     color: $color-four;
+    text-align: center;
     
 }
 
-.page-subtitle {
-    margin: 64px 0;
-    font-size: 26px;
+.page-title span {
+    font-size: 60px;
     font-weight: bold;
     font-family: $font-family;
+    text-align: center;
+    color: $color-one;
 }

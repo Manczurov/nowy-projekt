@@ -1,1 +1,96 @@
-body{margin:0;font-size:16px;line-height:1.7;font-family:"Abril Fatface",cursive;color:#2c2c54}.container{max-width:1140px;padding:0 20px;margin:0 auto}.navigation{padding:12px 0}.navigation ul{padding:0;margin:0;list-style-type:none;float:right}.navigation li{display:inline-block;margin:0 36px 0 0;position:relative}.navigation a{text-decoration:none;color:#302d2d;font-family:"Abril Fatface",cursive}.btn{display:inline-block;min-width:160px;margin:24px auto 0 auto;padding:16px;border-radius:5px;font-family:"Abril Fatface",cursive;font-size:16px;text-align:center;text-decoration:none;cursor:pointer;border-width:5px;background-color:#302d2d;background-position:100% 0;background-size:300%}.splash{color:#302d2d;background-image:url(images/budynek.jpg);min-height:500px;display:flex}.splash-inner{margin:0;max-width:70%}.page-title{margin:0;font-size:42px;word-spacing:4px;font-weight:normal;line-height:1.2;font-family:"Abril Fatface",cursive;color:#ececec}.page-subtitle{margin:64px 0;font-size:26px;font-weight:bold;font-family:"Abril Fatface",cursive}
+/* global */
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  text-align: center;
+  font-family: "Abril Fatface", cursive;
+  color: #2c2c54;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* navigation */
+.navigation {
+  padding: 12px 0;
+  overflow: hidden;
+}
+
+.navigation ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  float: right;
+}
+
+.navigation li {
+  display: inline-block;
+  margin: 0 36px 0 0;
+  position: relative;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #ececec;
+  font-family: "Abril Fatface", cursive;
+}
+
+/* splash */
+.btn {
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  border-radius: 5px;
+  font-family: "Abril Fatface", cursive;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 5px;
+  background-color: #ececec;
+  background-position: 100% 0;
+  background-size: 300%;
+}
+
+.main-page {
+  height: 50vh;
+  position: relative;
+  background-image: url(https://i.postimg.cc/TYgf8S26/budynek.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: inherit;
+}
+
+.splash {
+  padding: 7%;
+}
+
+.splash-inner {
+  margin: 0;
+}
+
+.page-title {
+  font-size: 40px;
+  word-spacing: 4px;
+  font-weight: normal;
+  line-height: 1.2;
+  font-family: "Abril Fatface", cursive;
+  color: #ececec;
+  text-align: center;
+}
+
+.page-title span {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+  color: #ff9f1a;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */
