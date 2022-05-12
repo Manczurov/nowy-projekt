@@ -2,7 +2,7 @@
 $color-one: #ff9f1a;
 $color-two: #302d2d;
 $color-three: #4b4b4b;
-$color-four: #302d2d;
+$color-four: #ececec;
 
 $font-family: 'Abril Fatface', cursive;
 
@@ -22,7 +22,6 @@ body {
 
 /* navigation */
 .navigation {
-    background: $color-one;
     padding: 12px 0;
 }
 
@@ -30,6 +29,7 @@ body {
     padding: 0;
     margin: 0;
     list-style-type: none;
+    float: right;
 }
 .navigation li {
     display: inline-block;
@@ -40,5 +40,53 @@ body {
 .navigation a {
     text-decoration: none;
     color: $color-two;
+    font-family: $font-family;
+}
+
+/* splash */
+
+.btn {
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: $font-family;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 5px;
+    background-color: $color-two;
+    background-position: 100% 0;
+    background-size: 300%;
+}
+
+.splash {
+    color: $color-two;
+    min-height: 500px;
+    display: flex;
+}
+
+.splash-inner {
+    margin: 0;
+    max-width: 70%;
+}
+
+.page-title {
+    margin: 0;
+    font-size: 62px;
+    word-spacing: 4px;
+    font-weight: normal;
+    line-height: 1.2;
+    font-family: $font-family;
+    color: $color-four;
+    
+}
+
+.page-subtitle {
+    margin: 44px 0;
+    font-size: 26px;
+    font-weight: bold;
     font-family: $font-family;
 }

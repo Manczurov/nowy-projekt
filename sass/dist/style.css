@@ -15,7 +15,6 @@ body {
 
 /* navigation */
 .navigation {
-  background: #ff9f1a;
   padding: 12px 0;
 }
 
@@ -23,6 +22,7 @@ body {
   padding: 0;
   margin: 0;
   list-style-type: none;
+  float: right;
 }
 
 .navigation li {
@@ -34,6 +34,52 @@ body {
 .navigation a {
   text-decoration: none;
   color: #302d2d;
+  font-family: "Abril Fatface", cursive;
+}
+
+/* splash */
+.btn {
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-family: "Abril Fatface", cursive;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 5px;
+  background-color: #302d2d;
+  background-position: 100% 0;
+  background-size: 300%;
+}
+
+.splash {
+  color: #302d2d;
+  min-height: 500px;
+  display: flex;
+}
+
+.splash-inner {
+  margin: 0;
+  max-width: 70%;
+}
+
+.page-title {
+  margin: 0;
+  font-size: 62px;
+  word-spacing: 4px;
+  font-weight: normal;
+  line-height: 1.2;
+  font-family: "Abril Fatface", cursive;
+  color: #ececec;
+}
+
+.page-subtitle {
+  margin: 44px 0;
+  font-size: 26px;
+  font-weight: bold;
   font-family: "Abril Fatface", cursive;
 }
 
