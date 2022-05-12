@@ -1,17 +1,40 @@
-/* Error: Undefined variable.
- *    ,
- * 43 |     font-family: $font-one;
- *    |                  ^^^^^^^^^
- *    '
- *   sass\style.scss 43:18  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 43 \2502      font-family: $font-one;\d\a    \2502                   ^^^^^^^^^\a    \2575 \a   sass\\style.scss 43:18  root stylesheet";
+/* global */
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Abril Fatface", cursive;
+  color: #2c2c54;
 }
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* navigation */
+.navigation {
+  background: #ff9f1a;
+  padding: 12px 0;
+}
+
+.navigation ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.navigation li {
+  display: inline-block;
+  margin: 0 36px 0 0;
+  position: relative;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #302d2d;
+  font-family: "Abril Fatface", cursive;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxXQUFBO0FBUUE7RUFDSSxTQUFBO0VBQ0EsZUFBQTtFQUNBLGdCQUFBO0VBQ0EscUNBQUE7RUFDQSxjQUFBO0FDTko7O0FEU0U7RUFDRSxpQkFBQTtFQUNBLGVBQUE7RUFDQSxjQUFBO0FDTko7O0FEU0EsZUFBQTtBQUNBO0VBQ0ksbUJBdkJRO0VBd0JSLGVBQUE7QUNOSjs7QURTQTtFQUNJLFVBQUE7RUFDQSxTQUFBO0VBQ0EscUJBQUE7QUNOSjs7QURRQTtFQUNJLHFCQUFBO0VBQ0Esa0JBQUE7RUFDQSxrQkFBQTtBQ0xKOztBRFFBO0VBQ0kscUJBQUE7RUFDQSxjQXZDUTtFQXdDUixxQ0FwQ1U7QUMrQmQiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
