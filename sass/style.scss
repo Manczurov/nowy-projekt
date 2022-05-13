@@ -65,7 +65,7 @@ body {
 }
 
 .main-page {
-    height: 50vh;
+    height: 70vh;
     position: relative;
     background-image: url(https://i.postimg.cc/TYgf8S26/budynek.jpg);
     background-position: center center;
@@ -102,7 +102,7 @@ body {
 /* Services */
 
 .services {
-    margin: 90px 0 0 0;
+    margin: 100px 0 0 0;
 }
 
 .services i {
@@ -116,3 +116,10 @@ body {
     border-style: solid;
 }
 
+.row {
+    padding: 50px 0 0 0;
+}
+
+.services h3 {
+    font-size: 25px;
+}
