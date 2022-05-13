@@ -36,7 +36,6 @@ body {
 .navigation a {
   text-decoration: none;
   color: #ececec;
-  font-family: "Abril Fatface", cursive;
 }
 
 /* splash */
@@ -45,7 +44,6 @@ body {
   min-width: 160px;
   margin: 24px auto 0 auto;
   border-radius: 5px;
-  font-family: "Abril Fatface", cursive;
   font-size: 16px;
   text-align: center;
   text-decoration: none;
@@ -78,7 +76,6 @@ body {
   word-spacing: 4px;
   font-weight: normal;
   line-height: 1.2;
-  font-family: "Abril Fatface", cursive;
   color: #ececec;
   text-align: center;
 }
@@ -86,7 +83,6 @@ body {
 .page-title span {
   font-size: 60px;
   font-weight: bold;
-  font-family: "Abril Fatface", cursive;
   text-align: center;
   color: #ff9f1a;
 }
@@ -117,10 +113,9 @@ body {
 
 /* Portfolio */
 .PORTFOLIO {
-  background-color: #d8d8d8;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 10%;
+  background-color: #f0f0f0;
+  margin: 100px 0 0 0;
+  padding: 100px 0;
 }
 
 .card img {
@@ -132,6 +127,26 @@ body {
 .card {
   background-color: #ffffff;
   width: 300px;
+  height: 400px;
+  margin: 20px 0;
+}
+
+/* footer */
+.footer .row {
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+.footer i {
+  font-size: 30px;
+  background: #4b4b4b;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: #ececec;
+  border-radius: 50%;
+  flex: 0 0 33.333%;
+  right: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
