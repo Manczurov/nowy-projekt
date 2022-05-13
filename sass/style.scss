@@ -6,15 +6,16 @@ $color-four: #ececec;
 
 $font-family: 'Abril Fatface', cursive;
 
+
 body {
     margin: 0;
     font-size: 16px;
     line-height: 1.7;
     text-align: center;
     font-family: 'Abril Fatface', cursive;
-    color: #2c2c54; 
+    color: $color-three; 
 }
-  
+
   .container {
     max-width: 1140px;
     padding: 0 20px;
@@ -97,3 +98,21 @@ body {
     text-align: center;
     color: $color-one;
 }
+
+/* Services */
+
+.services {
+    margin: 90px 0 0 0;
+}
+
+.services i {
+    font-size: 40px;
+    background: #fff;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    color: $color-one;
+    border-radius: 50%;
+    border-style: solid;
+}
+
