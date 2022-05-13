@@ -115,4 +115,23 @@ body {
   font-size: 25px;
 }
 
+/* Portfolio */
+.PORTFOLIO {
+  background-color: #d8d8d8;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10%;
+}
+
+.card img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 300px;
+}
+
 /*# sourceMappingURL=style.css.map */
