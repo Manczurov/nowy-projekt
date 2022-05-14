@@ -176,6 +176,9 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 917px) {
+  .main-page {
+    height: 50vh;
+  }
   .footer i {
     font-size: 20px;
     width: 40px;
