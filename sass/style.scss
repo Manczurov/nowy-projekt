@@ -3,6 +3,9 @@ $color-one: #ff9f1a;
 $color-two: #302d2d;
 $color-three: #4b4b4b;
 $color-four: #ececec;
+$color-five: #fff;
+$color-six: #646464;
+$color-seven: #f0f0f0;
 
 $font-family: 'Abril Fatface', cursive;
 
@@ -26,6 +29,7 @@ body {
 .navigation {
     padding: 12px 0;
     overflow: hidden;
+    text-transform: uppercase;
 }
 
 .navigation ul {
@@ -97,12 +101,12 @@ body {
 /* Services */
 
 .services {
-    margin: 100px 0 0 0;
+    margin: 100px 0 0 ;
 }
 
 .services i {
     font-size: 40px;
-    background: #fff;
+    background: $color-five;
     width: 100px;
     height: 100px;
     line-height: 100px;
@@ -112,7 +116,7 @@ body {
 }
 
 .row {
-    padding: 50px 0 0 0;
+    padding: 50px 0 0 ;
 }
 
 .services h3 {
@@ -122,8 +126,8 @@ body {
 /* Portfolio */
 
 .PORTFOLIO {
-    background-color: #f0f0f0;
-    margin: 100px 0 0 0;
+    background-color: $color-seven;
+    margin: 100px 0 0 ;
     padding: 100px 0;
 }
 
@@ -134,7 +138,7 @@ body {
 }
 
 .card {
-    background-color: #ffffff;
+    background-color: $color-five;
     width: 300px;
     height: 400px;
     margin: 10px auto;
@@ -142,7 +146,7 @@ body {
 
 .card span {
     font-size: 10px;
-    color: #646464;
+    color: $color-six;
 }
 
 /* footer */
@@ -188,7 +192,7 @@ body {
     }
     
     .card {
-        background-color: #ffffff;
+        background-color: $color-five;
         width: 100%;
         height: 400px;
     }
